@@ -5,7 +5,7 @@
 ## Flash Steps
 Assuming you know the basic of flashing...
 * Via ODIN
-    * Download `OrangeFox-12.1-A556E.tar` file in the release.
+    * Download `OFRP_FOR_A556E.tar` file in the release.
     * In ODIN, in AP section, flash the file you downloaded in release section.
     * Reboot now to Recovery.
 
