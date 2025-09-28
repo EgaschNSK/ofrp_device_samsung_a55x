@@ -10,8 +10,8 @@ Assuming you know the basic of flashing...
     * Reboot now to Recovery.
 
 * Via FastbootD
-    * Download `recovery.cpio.lz4` file in the release.
-    * Reboot your device to fastbootd, and in command line, type: `fastboot flash vendor_boot:recovery recovery.cpio.lz4`
+    * Download `vendor_ramdisk_recovery.cpio` file in the release.
+    * Reboot your device to fastbootd, and in command line, type: `fastboot flash vendor_boot:recovery vendor_ramdisk_recovery.cpio`
     * Run: `fastboot reboot recovery`
 
 ## Build Steps
