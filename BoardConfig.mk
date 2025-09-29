@@ -163,8 +163,8 @@ TW_NO_REBOOT_BOOTLOADER := true
 
 # TWRP Configuration - UI alignment for punch-hole displays
 TW_STATUS_BAR_HEIGHT := 92
-TW_Y_OFFSET := 92
-TW_H_OFFSET := -92
+TW_Y_OFFSET := 0
+TW_H_OFFSET := 0
 
 # TWRP Configuration - Version
 TW_DEVICE_VERSION := Lyinceer_04
