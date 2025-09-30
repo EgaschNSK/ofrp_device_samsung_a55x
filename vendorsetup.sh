@@ -51,6 +51,8 @@ export FOX_VENDOR_BOOT_RECOVERY=1
 export FOX_NO_SAMSUNG_SPECIAL=1
 export FOX_INSTALLER_VENDOR_BOOT_RAMDISK_INSTALL=1
 export OF_MAINTAINER_AVATAR='$PWD/device/samsung/a55x/maintainer.png'
+export OF_FLASHLIGHT_ENABLE=0
+export FOX_USE_SPECIFIC_MAGISK_ZIP="~/Magisk/Magisk-v29.0.zip"
 
 # OrangeFox Addons
 export FOX_ENABLE_APP_MANAGER="1"
