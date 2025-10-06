@@ -30,7 +30,7 @@ cd ~/fox_12.1
 ```
 * Device Tree (Make sure you are in root directory of Orangefox Source.):
 ```
-git clone https://github.com/egaschnsk/ofrp_device_samsung_a55x -b fox12_1 ./device/samsung/a55x
+git clone https://gitlab.com/egaschnsk/ofrp_device_samsung_a55x -b fox12_1 ./device/samsung/a55x
 ```
 * Build (Make sure you are in root directory of OrangeFix source.)
 ```
