@@ -160,12 +160,14 @@ TW_HAS_DOWNLOAD_MODE := true
 TW_MAX_BRIGHTNESS := 200
 TW_NO_LEGACY_PROPS := true
 TW_NO_REBOOT_BOOTLOADER := true
+TW_USE_SAMSUNG_HAPTICS := true
 
 # TWRP Configuration - UI alignment for punch-hole displays
 TW_STATUS_BAR_HEIGHT := 92
 
 # TWRP Configuration - Version
-TW_DEVICE_VERSION := Lyinceer_04
+# There was Lyinceer
+TW_DEVICE_VERSION := EgaschNSK
 
 # TWRP Configuration - Excludes
 TW_EXCLUDE_APEX := true
