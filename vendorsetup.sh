@@ -91,7 +91,7 @@ export OF_USE_GREEN_LED=0
 
 
 # Flashlight
-export OF_FL_PATH1=/tmp/flashlight
+export OF_FL_PATH1="/tmp/flashlight"
 
 # Decrypt/Encrypt
 export OF_SKIP_FBE_DECRYPTION=1
