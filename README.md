@@ -4,14 +4,14 @@
 
 ## Flash Steps
 Assuming you know the basic of flashing...
+* Via ZIP Installer
+    * Download `OrangeFox-R11.3-Unofficial-a55x.zip` file in the release.
+    * Reboot your device to OFRP/TWRP, and flash zip.
+    * Reboot now to Recovery.
+
 * Via ODIN
     * Download `OFRP_FOR_A556E.tar` file in the release.
     * In ODIN, in AP section, flash the file you downloaded in release section.
-    * Reboot now to Recovery.
-
-* Via ZIP Installer (Not recomennded)
-    * Download `OrangeFox-R11.3-Unofficial-a55x.zip` file in the release.
-    * Reboot your device to OFRP/TWRP, and flash zip.
     * Reboot now to Recovery.
 
 ## Build Steps
@@ -36,4 +36,4 @@ git clone https://gitlab.com/egaschnsk/ofrp_device_samsung_a55x -b fox12_1 ./dev
 ```
 source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a55x-eng; mka vendorbootimage
 ```
-# Done! Check / find `vendor_boot.img or OrangeFox-R11.3-Unofficial-a55x.zip` in `out/target/product/a55x/target/product/a55x/´ directory.
+# Done! Check / find `OrangeFox-R11.3-Unofficial-a55x.zip or vendor_boot.img` in `out/target/product/a55x/target/product/a55x/´ directory.
