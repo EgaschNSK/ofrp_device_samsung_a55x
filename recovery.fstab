@@ -24,7 +24,3 @@ system_dlkm                                             /system_dlkm           e
 
 # Misc
 /dev/block/by-name/misc                                 /misc                  emmc    defaults		defaults,first_stage_mount
-
-# SDCard + OTG
-# VOLD
-#/devices/platform/13200000.usb*                         /usb_otg               auto    auto    default    voldmanaged=usb:auto

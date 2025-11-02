@@ -24,4 +24,4 @@
 
 # External Stuff
 /sdcard1        auto         /dev/block/mmcblk0p1 /dev/block/mmcblk0   flags=display="Micro SDCard";storage;wipeingui;removable
-/usb_otg            auto       /dev/block/sdf1 /dev/block/sdf            flags=display="USB OTG";storage;wipeingui;removable
+/usb_otg            auto       /dev/block/sdf1 /dev/block/sdf            flags=fsflags=utf8;display="USB OTG";storage;wipeingui;removable
