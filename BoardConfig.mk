@@ -161,6 +161,7 @@ TW_MAX_BRIGHTNESS := 200
 TW_NO_LEGACY_PROPS := true
 TW_NO_REBOOT_BOOTLOADER := true
 TW_USE_SAMSUNG_HAPTICS := true
+TW_DEFAULT_LANGUAGE := en
 TW_USE_SERIALNO_PROPERTY_FOR_DEVICE_ID := true
 
 # TWRP Configuration - UI alignment for punch-hole displays

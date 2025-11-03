@@ -35,7 +35,7 @@ fi
 
 if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
-export OF_DEFAULT_KEYMASTER_VERSION="1"
+export OF_DEFAULT_KEYMASTER_VERSION="4"
 
 # Version & Variant
 export FOX_BUILD_TYPE="Unofficial"
@@ -96,7 +96,6 @@ export OF_FL_PATH1="/tmp/flashlight"
 export OF_SKIP_FBE_DECRYPTION=1
 export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
 
-	lunch twrp_$FDEVICE-eng
 	# let's see what are our build VARs
 	if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
   	   export | grep "FOX" >> $FOX_BUILD_LOG_FILE
