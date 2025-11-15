@@ -38,7 +38,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 export OF_DEFAULT_KEYMASTER_VERSION="4"
 
 # Version & Variant
-export FOX_BUILD_TYPE="Unofficial"
+export FOX_BUILD_TYPE=Beta
 export USE_CCACHE="1"
 export TARGET_ARCH="arm64"
 export FOX_VANILLA_BUILD="1"
