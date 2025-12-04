@@ -5,13 +5,8 @@
 ## Flash Steps
 Assuming you know the basic of flashing...
 * Via ZIP Installer
-    * Download `OrangeFox-R11.3-Unofficial-a55x.zip` file in the release.
+    * Download `OrangeFox-R11.3-Beta-a55x.zip` file on orangefox.download.
     * Reboot your device to OFRP/TWRP, and flash zip.
-    * Reboot now to Recovery.
-
-* Via ODIN
-    * Download `OFRP_FOR_A556E.tar` file in the release.
-    * In ODIN, in AP section, flash the file you downloaded in release section.
     * Reboot now to Recovery.
 
 ## Build Steps
