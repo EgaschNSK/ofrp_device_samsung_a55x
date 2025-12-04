@@ -4,15 +4,14 @@
 /init_boot      emmc  /dev/block/by-name/init_boot                  flags=slotselect;backup=1;flashimg;display="Init Boot"
 /vendor_boot    emmc  /dev/block/by-name/vendor_boot                flags=slotselect;backup=1;flashimg;display="Vendor Boot"
 /dtbo           emmc  /dev/block/by-name/dtbo                       flags=slotselect;backup=1;flashimg;display="DTBO"
-/vbmeta         emmc  /dev/block/by-name/vbmeta                     flags=slotselect;backup=1;flashimg;display="vbmeta"
-/vbmeta_system	emmc		/dev/block/by-name/vbmeta_system		flags=display="vbmeta system";slotselect;backup=1;flashimg
+/vbmeta         emmc  /dev/block/by-name/vbmeta                     flags=slotselect;backup=1;flashimg;display="Vbmeta"
+/vbmeta_system	emmc		/dev/block/by-name/vbmeta_system		flags=display="Vbmeta system";slotselect;backup=1;flashimg
 # /super			emmc  /dev/block/by-name/super						flags=display="Super";slotselect;backup=1;flashimg
 /slotinfo       emmc  /dev/block/by-name/slotinfo                   flags=backup=1;display="Slotinfo"
 
 # Superimage Logical Partitions
-# /system_image   emmc      /dev/block/by-name/system       flags=display="System_Image";backup=1;flashimg=1;slotselect
-# /vendor_image   emmc      /dev/block/by-name/vendor       flags=display="Vendor_Image";backup=1;flashimg=1;slotselect
-# /product_image  emmc      /dev/block/by-name/product      flags=display="Product_Image";backup=1;flashimg=1;slotselect
+/system_image   emmc      /dev/block/by-name/system       flags=display="System_Image";backup=0;flashimg=1;slotselect
+/vendor_image   emmc      /dev/block/by-name/vendor       flags=display="Vendor_Image";backup=0;flashimg=1;slotselect
 
 #CSC
 /prism          ext4  /dev/block/by-name/prism                      flags=display="Prism";slotselect;backup=1;flashimg
