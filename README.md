@@ -27,8 +27,8 @@ cd ~/fox_12.1
 ```
 git clone https://gitlab.com/egaschnsk/ofrp_device_samsung_a55x -b fox12_1 ./device/samsung/a55x
 ```
-* Build (Make sure you are in root directory of OrangeFix source.)
+* Build (Make sure you are in root directory of OrangeFox source.)
 ```
 source build/envsetup.sh; export ALLOW_MISSING_DEPENDENCIES=true; lunch twrp_a55x-eng; mka vendorbootimage
 ```
-# Done! Check / find `OrangeFox-R11.3-Unofficial-a55x.zip or vendor_boot.img` in `out/target/product/a55x/target/product/a55x/´ directory.
+# Done! Check / find `OrangeFox-R11.3-Beta-a55x.zip` in `out/target/product/a55x/target/product/a55x/´ directory.
