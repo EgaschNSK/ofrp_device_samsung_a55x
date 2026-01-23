@@ -4,20 +4,21 @@
 /init_boot      emmc  /dev/block/by-name/init_boot                  flags=slotselect;backup=1;flashimg;display="Init Boot"
 /vendor_boot    emmc  /dev/block/by-name/vendor_boot                flags=slotselect;backup=1;flashimg;display="Vendor Boot"
 /dtbo           emmc  /dev/block/by-name/dtbo                       flags=slotselect;backup=1;flashimg;display="DTBO"
-/vbmeta         emmc  /dev/block/by-name/vbmeta                     flags=slotselect;backup=1;flashimg;display="Vbmeta"
-/vbmeta_system	emmc		/dev/block/by-name/vbmeta_system		flags=display="Vbmeta system";slotselect;backup=1;flashimg
-# /super			emmc  /dev/block/by-name/super						flags=display="Super";slotselect;backup=1;flashimg
+/vbmeta         emmc  /dev/block/by-name/vbmeta                     flags=slotselect;backup=1;flashimg;display="VBmeta"
+/vbmeta_system	emmc  /dev/block/by-name/vbmeta_system		        flags=display="VBmeta system";slotselect;backup=1;flashimg
 /slotinfo       emmc  /dev/block/by-name/slotinfo                   flags=backup=1;display="Slotinfo"
+/persistent     emmc  /dev/block/by-name/persistent                 flags=display="Persistent";backup=1
 
 #CSC
 /prism          ext4  /dev/block/by-name/prism                      flags=display="Prism";slotselect;backup=1;flashimg
 /optics         ext4  /dev/block/by-name/optics                     flags=display="Optics";slotselect;backup=1;flashimg
 
 # Data
-/cache				ext4         /dev/block/by-name/cache             flags=display="Cache";backup=0
-/sec_efs            ext4         /dev/block/by-name/sec_efs           flags=display="SEC_EFS";slotselect;backup=1
+/cache			ext4  /dev/block/by-name/cache                      flags=display="Cache";backup=0
+/efs            ext4  /dev/block/by-name/efs                        flags=display="EFS";slotselect;backup=1
+/sec_efs        ext4  /dev/block/by-name/sec_efs                    flags=display="SEC_EFS";slotselect;backup=1
 
 # External Stuff
-/sdcard1        auto         /dev/block/mmcblk0p1 /dev/block/mmcblk0   flags=display="Micro SDCard";storage;wipeingui;removable
-/usb_otg            auto       /dev/block/sdf1 /dev/block/sdf            flags=fsflags=utf8;display="USB OTG";storage;wipeingui;removable
-
+/sdcard1        auto  /dev/block/mmcblk0p1 /dev/block/mmcblk0       flags=display="Micro SDCard";storage;wipeingui;removable
+/usb_otg        auto  /dev/block/sdf1 /dev/block/sdf                flags=fsflags=utf8;display="USB OTG";storage;wipeingui;removable
+/up_param_a     emmc  /dev/block/by-name/up_param_a                 flags=slotselect;flashimg;display="Up Param (Bootlogo)"
