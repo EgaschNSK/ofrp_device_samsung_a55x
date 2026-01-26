@@ -1,0 +1,5 @@
+# FRP
+ro.frp.pst=/dev/block/by-name/persistent 
+
+# Other
+ro.display.series=Samsung Galaxy A55
